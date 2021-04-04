@@ -2,5 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby Blog Site",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-gatsby-cloud`,
+  ],
 };
